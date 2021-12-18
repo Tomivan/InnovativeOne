@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+.home{
+    padding: 1em;
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    margin-right: 3%;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+.icon{
+    height: 5vh;
+    margin-top: 0.5%;
+}
+li{
+    padding-right: 2em;
+}
+hr{
+    border: 1px solid #eeeeee;
+    width: 98%;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+span{
+    color: #eeeeee;
+}
+.mastercard{
+    height: 25vh;
+    border-radius: 5px;
+}
+.main-right{
+    margin: 3% 3% 0 0;
+}
+.cards{
+    display: flex;
+    justify-content: flex-end;
+}
+.card-icon{
+    height: 5vh;
+    margin-left: 1%;
+}
+.form{
+    display: flex;
+}
+.form-left, .form-right{
+    display: flex;
+    flex-direction: column;
+    margin-right: 3%;
+}
+label{
+    margin-bottom: 2%;
+}
+.input{
+    height: 5vh;
+    width: 18vw;
+    background: #eeeeee;
+    border: 1px solid #ccc;
+}
+input::placeholder{
+    padding-left: 1em;
+}
+.add-card{
+    background-color: #007FFF;
+    color: #fff;
+    border: none;
+    width: 38vw;
+    height: 5vh;
+    border-radius: 5px;
+    margin-top: 3%;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+}
+.right-section{
+    text-align: end;
+    margin-right: 3%;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 3%;
+}
+.complete{
+    background-color: #007FFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    height: 5vh;
+    margin-top: 1.5%;
+    width: 12vw;
+}
